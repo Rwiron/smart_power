@@ -4,12 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>TrendSculpt | Fashion - Admin & Dashboard</title>
+    <title>Smart Power | REG - Admin & Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta content="Minimal Admin & Dashboard Template" name="description">
     <meta content="StarCode Kh" name="author">
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ asset('assets/images/logoes.png') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/images/logo12345.png') }}">
     <!-- Layout config Js -->
     <script src="{{ asset('assets/js/layout.js') }}"></script>
     <!-- StarCode CSS -->
@@ -30,10 +30,10 @@
                 <a href="{{ url('home') }}"
                     class="group-data-[sidebar=dark]:hidden group-data-[sidebar=brand]:hidden group-data-[sidebar=modern]:hidden">
                     <span class="hidden group-data-[sidebar-size=sm]:block">
-                        <img src="{{ asset('assets/images/logoes.png') }}" alt="" class="h-16 mx-auto">
+                        <img src="{{ asset('assets/images/logo12345.png') }}" alt="" class="h-16 mx-auto">
                     </span>
                     <span class="group-data-[sidebar-size=sm]:hidden flex items-center">
-                        <img src="{{ asset('assets/images/logoes.png') }}" alt="" class="h-16">
+                        <img src="{{ asset('assets/images/logo12345.png') }}" alt="" class="h-16">
                         <span class="ml-2 text-lg font-semibold"></span>
                     </span>
 

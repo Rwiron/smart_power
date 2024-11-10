@@ -166,12 +166,12 @@
                             <h5 class="mb-3 font-normal tracking-wide text-slate-200"> Welcome,
                                 {{ Auth::check() ? Auth::user()->name : 'Guest' }} 🎉
                             </h5>
-                            <p class="mb-5 text-slate-400">TrendSculpt provides you with a comprehensive dashboard to
-                                analyze social media trends, monitor fashion insights, and enhance your strategies with key
-                                metrics and visual insights.</p>
+                            <p class="mb-5 text-slate-400">SmartPower Manager provides you with a comprehensive dashboard
+                                to monitor and manage electricity consumption. Gain real-time insights, control your
+                                cashpower devices, and stay on top of your energy usage and payments with ease.</p>
                             <button type="button"
                                 class="text-white btn bg-custom-500 border-custom-500 hover:text-white hover:bg-custom-600 hover:border-custom-600 focus:text-white focus:bg-custom-600 focus:border-custom-600 focus:ring focus:ring-custom-500/20 active:text-white active:bg-custom-600 active:border-custom-600 active:ring active:ring-custom-500/20 dark:ring-custom-400/20">Explore
-                                Trends</button>
+                                Dashboard</button>
                         </div>
                         <div
                             class="hidden col-span-12 2xl:col-span-3 lg:col-span-2 lg:col-start-11 2xl:col-start-10 lg:block">
@@ -180,6 +180,7 @@
                         </div>
                     </div>
                 </div>
+
             </div><!--end col-->
         </div>
     </div>

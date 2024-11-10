@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Sign In | TrendSculpt & Dashboard</title>
+    <title>Sign In | Smart Power Manager </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta content="Minimal Admin & Dashboard Template" name="description">
     <meta content="StarCode Kh" name="author">
@@ -21,8 +21,9 @@
 
 </head>
 
-<body class="font-public">
 
+<body
+    class="flex items-center justify-center min-h-screen px-4 py-16 bg-cover bg-auth-pattern dark:bg-auth-pattern-dark dark:text-zink-100 font-public">
     {!! Toastr::message() !!}
 
     @yield('content')
